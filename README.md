@@ -20,8 +20,6 @@ Docker image for Ionic development
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/ionic.svg)](https://hub.docker.com/r/gilhardl/ionic/)
 
-----------------------------------------
-
 
 # Usage
 
