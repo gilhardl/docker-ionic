@@ -1,6 +1,6 @@
 # docker-ionic
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/ionic.svg)](https://hub.docker.com/r/gilhardl/ionic/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/ionic.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/ionic/)
 
 Docker image for Ionic development
 
