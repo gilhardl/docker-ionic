@@ -1,24 +1,19 @@
-ARG NODE_VERSION=10.15
-FROM node:$NODE_VERSION-alpine
+ARG ANGULAR_VERSION
+ARG IONIC_VERSION=4.12.0
+
+FROM gilhardl/angular:${ANGULAR_VERSION:-latest}
 
 LABEL author="Lucas GILHARD <l.gilhard@gmail.com>"
-LABEL version="1.0.0"
+LABEL version="4.12.0"
 LABEL description="Docker image for Ionic development"
 
-ARG APP_DIR="/app"
+WORKDIR /usr/src/app/
 
-# Linux setup
-RUN apk update \
-  && rm -rf /tmp/* /var/cache/apk/* ~/.npm \
-  && npm cache verify \
-  && sed -i -e "s/bin\/ash/bin\/sh/" /etc/passwd
-
-# Yarn
-RUN apk add yarn
+USER root
 
 # Ionic
-RUN yarn global add ionic@4.11.0
+RUN yarn global add ionic@$IONIC_VERSION
 
 EXPOSE 8100 49153
 
-WORKDIR $APP_DIR
+CMD ["bash"]
