@@ -26,7 +26,7 @@ Docker image for Ionic development
 # Usage
 
 ```
-docker run -it --name IONIC -v /c/Users/LG/Work:/app -p 8100:8100 -p 49153:49153 gilhardl/ionic
+docker run -it --name IONIC -v /path/to/your/project:/app -p 8100:8100 -p 49153:49153 gilhardl/ionic
 ```
 
 Then you should be able to use Ionic CLI from your container shell
