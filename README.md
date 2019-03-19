@@ -6,7 +6,9 @@ Docker image for Ionic development
 
 ----------------------------------------
 
-**Ionic CLI :** 4.11.0
+**Ionic CLI :** 4.12.0
+
+**Angular CLI :** 7.3.6
 
 **Node.js :** v10.15.3
 
