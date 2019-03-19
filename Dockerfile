@@ -1,7 +1,7 @@
 ARG ANGULAR_VERSION
-ARG IONIC_VERSION=4.12.0
-
 FROM gilhardl/angular:${ANGULAR_VERSION:-latest}
+
+ARG IONIC_VERSION=4.12.0
 
 LABEL author="Lucas GILHARD <l.gilhard@gmail.com>"
 LABEL version="4.12.0"
