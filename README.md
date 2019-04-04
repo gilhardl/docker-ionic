@@ -2,9 +2,9 @@
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/gilhardl/ionic.svg?style=flat-square)](https://hub.docker.com/r/gilhardl/ionic/)
 
-Docker image for Ionic development
+Docker image for Ionic development, based on [gilhardl/angular](https://github.com/gilhardl/docker-angular)
 
-----------------------------------------
+---
 
 **Ionic CLI :** 4.12.0
 
@@ -20,8 +20,7 @@ Docker image for Ionic development
 
 **Package manager:** yarn
 
-----------------------------------------
-
+---
 
 # Usage
 
